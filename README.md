@@ -58,16 +58,19 @@ Not every application will support every profile. Consult the application's own 
 ```
 .
 ├── applications/
-│   ├── grafana/
-│   ├── loki/
-│   ├── moodle/
-│   └── sonarqube/
+│   ├── gitea/
+│   │   ├── dev.bicepparam
+│   │   ├── standard.bicepparam
+│   │   └── main.bicep
+│   ├── keycloak/
+│   ├── nextcloud/
+│   └── paperless/
 ├── modules/
-│   ├── compute/
-│   ├── database/
+│   ├── container-app/
+│   ├── key-vault/
 │   ├── monitoring/
-│   ├── networking/
-│   ├── security/
+│   ├── network/
+│   ├── postgres/
 │   └── storage/
 ├── scripts/
 ├── tests/
